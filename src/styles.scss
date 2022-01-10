@@ -1,0 +1,133 @@
+
+.titulo{
+    background: #fb862f;
+    color: white;
+}
+.fondo{
+    background: linear-gradient(rgba(247, 147, 30, 0), rgba(246, 141, 32, 0.25), rgba(246, 138, 33, 0.3), rgba(246, 138, 33, 0.35), rgba(244, 129, 37, 0.25), rgba(244, 124, 39, 0.2), rgba(244, 120, 40, 0));   
+}
+.postdetalle{
+    height: 100%;
+    width: 100%;
+}
+
+.v-app-var{
+    background: #fb862f
+}
+.v-toolbar__content{
+    background: #fb862f
+}
+.v-navigation-drawer__content{
+    background: #fb862f
+}
+.v-main__wrap > div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mx-auto{
+    align-items: baseline;
+    background-color: #fb862f;
+    max-width: 250px;
+
+}
+.tlog{
+    min-width: 100%;
+}
+
+.divis{
+    height: 33%;
+
+}
+.contenedor{      
+    height: 20%;
+    width: 100%;
+    background-color: gray;
+    margin:auto;
+
+  }
+.Center{
+    min-width: 100%;
+}
+.d_col{
+    max-width: 100%;
+    height: 100%;
+    background-color: gray;
+}
+.sesion{
+    width: 100%;
+    justify-content: center;
+}
+.v-main__wrap > div:nth-child(1){
+    background: linear-gradient(rgba(247, 147, 30, 0), rgba(246, 141, 32, 0.25), rgba(246, 138, 33, 0.3), rgba(246, 138, 33, 0.35), rgba(244, 129, 37, 0.25), rgba(244, 124, 39, 0.2), rgba(244, 120, 40, 0));   
+}
+
+.botngresar{
+    background-color: #fb862f;
+    color: white;    
+}
+.botngresar2, #botoncito > span:nth-child(1){
+    background-color: orange;    
+    color: white;
+    margin-right: inherit;
+    
+}
+.botngresar > span:nth-child(1){
+    color: white;
+}
+.pa-5{
+    background: #fb862f;
+}
+.wrap    { 
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }  
+  .centrado{      
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+    max-width:100%;
+    max-height: min-content;
+    flex-wrap: wrap;
+  }
+  .v-input{
+      max-width: 33%;
+  }
+  .filtro{
+    border-color: orange;
+    border-block-color: orange;
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+    max-width:100%;
+    max-height: min-content;
+    flex-wrap: wrap;
+  }
+  .centrado2{      
+    display:flex;
+    justify-content: center;
+    align-items:baseline;
+    max-width:100%;
+    max-height: min-content;
+    flex-wrap: wrap;
+  }
+  .posteo{
+      text-align: justify;
+      height: 100px;
+      overflow: hidden;
+  }  
+  .drawer{
+    display: none;
+  }
+  .bdrawer{
+    display: none;
+  }
+  .v-main__wrap{
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+    max-width:100%;
+    max-height: min-content;
+    flex-wrap: wrap; 
+  }  
+
