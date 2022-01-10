@@ -33,23 +33,13 @@ const routes = [
       if (store.state.user == null) {
         next('/');      
       }
-      else{
-        next('/Post')
-      }
+      next()
     },
   },
   {
     path: '*',
     name: 'comodin',
-    redirect: "/",
-    beforeEnter: (to, from, next) => { 
-      if (store.state.user == null) {
-        next('/');      
-      }
-      else{
-        next('/Post')
-      }
-    },
+    redirect: "/", 
     
   }
 
